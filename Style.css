@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: grey;
+}
+
+.inicio{
+    width: 100%;
+    height: 600px;
+    background-image: url(imagens/agora.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   
+}
+
+
+nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   padding: 15px 0;
+   
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+
+}
+
+nav li{
+    display:inline-block;
+    margin: 0 15px;
+    text-align: center;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+
+.unha{
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+.cabelo{
+    
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.divservicos{
+  display: flex;
+  justify-content: center; /* centraliza na horizontal */
+  gap: 30px; /* espaço entre as duas divs */
+  margin-top: 40px;
+  flex-wrap: wrap; /* ajuda em telas menores */
+   
+}
+.box_contato{
+    display: flex;
+    justify-content: center;
+}
